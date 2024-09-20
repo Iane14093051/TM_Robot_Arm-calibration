@@ -34,6 +34,6 @@ $ roslaunch realsense2_camera rs_camera.launch
 Finally, run the hand-eye calibration program:
 
 ```bash
-$ python EIHCali.py
+$ python main.py
 ```
 
