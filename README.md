@@ -19,4 +19,21 @@ This project implements an eye-in-hand calibration system using a TM Robot Arm a
 
 ## Usage
 
+First, start ROS and connect to the TM_robot robotic arm:
+
+```bash
+$ rosrun tm_driver tm_driver <robot_ip_address>
+```
+
+Next, connect the Realsense D435:
+
+```bash
+$ roslaunch realsense2_camera rs_camera.launch
+```
+
+Finally, run the hand-eye calibration program:
+
+```bash
+$ python EIHCali.py
+```
 
