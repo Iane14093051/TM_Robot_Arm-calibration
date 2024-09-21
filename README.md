@@ -1,4 +1,4 @@
-# TM_robot-calibration
+# TM robot calibration
 
 Eye-in-Hand Calibration Using Tsai-Lenz Method with TM Robot Arm and Realsense D435
 
